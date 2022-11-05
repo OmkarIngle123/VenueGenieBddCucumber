@@ -1,0 +1,380 @@
+[ {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:37.873Z",
+    "line" : 4,
+    "name" : "User want to read the data from the database",
+    "description" : "",
+    "id" : "delete-request-with-id;user-want-to-read-the-data-from-the-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1755980700,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User want to delete the data by giving Id from database by using URI \"http://localhost:8080/admins/27\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins/27\"",
+          "offset" : 69
+        } ],
+        "location" : "stepDefinations.DeleteSteps.user_want_to_delete_the_data_by_giving_id_from_database_by_using_uri(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 106213800,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User want to check the code is  404",
+      "match" : {
+        "arguments" : [ {
+          "val" : "404",
+          "offset" : 32
+        } ],
+        "location" : "stepDefinations.DeleteSteps.user_want_to_check_the_code_is(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@Delete"
+    } ]
+  } ],
+  "name" : "Delete Request with Id",
+  "description" : "",
+  "id" : "delete-request-with-id",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/DeleteMethod.feature",
+  "tags" : [ ]
+}, {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:39.764Z",
+    "line" : 4,
+    "name" : "User want to read the data from the database",
+    "description" : "",
+    "id" : "getwithemailotp-request;user-want-to-read-the-data-from-the-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 21995200,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "User want To fetch the Data from the database \"http://localhost:8080/admins/email/starpubg316@gmail.com/otp/24680\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins/email/starpubg316@gmail.com/otp/24680\"",
+          "offset" : 46
+        } ],
+        "location" : "stepDefinations.GetWithEmailOtpSteps.user_want_to_fetch_the_data_from_the_database(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1998100,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User Want to Verfy StatuS code 404",
+      "match" : {
+        "arguments" : [ {
+          "val" : "404",
+          "offset" : 31
+        } ],
+        "location" : "stepDefinations.GetWithEmailOtpSteps.user_want_to_verfy_statu_s_code(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@GetWithEmailOtp"
+    } ]
+  } ],
+  "name" : "GetWithEmailOtp Request",
+  "description" : "",
+  "id" : "getwithemailotp-request",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/GetWithEmaiOtp.feature",
+  "tags" : [ ]
+}, {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:39.802Z",
+    "line" : 5,
+    "name" : "User want to read the data from database",
+    "description" : "",
+    "id" : "getwithemail--request;user-want-to-read-the-data-from-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 50524900,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User want to Fetch the data From the database \"http://localhost:8080/admins/email/starpubg316@gmail.com\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins/email/starpubg316@gmail.com\"",
+          "offset" : 46
+        } ],
+        "location" : "stepDefinations.GetWithEmailSteps.user_want_to_Fetch_the_data_From_the_database(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 2001300,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User want to verify Status Code 200",
+      "match" : {
+        "arguments" : [ {
+          "val" : "200",
+          "offset" : 32
+        } ],
+        "location" : "stepDefinations.GetWithEmailSteps.user_want_to_verify_status_code(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@GetByEmail"
+    } ]
+  } ],
+  "name" : "GetWithEmail  Request",
+  "description" : "",
+  "id" : "getwithemail--request",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/GetWithEmail.feature",
+  "tags" : [ ]
+}, {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:39.866Z",
+    "line" : 4,
+    "name" : "User want to read the data frm the database",
+    "description" : "",
+    "id" : "getwithemailpasswordsteps-request;user-want-to-read-the-data-frm-the-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 36001400,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user Want to retrive the data From the database \"http://localhost:8080/admins/email/starpubg316@gmail.com/password/Raj@134\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins/email/starpubg316@gmail.com/password/Raj@134\"",
+          "offset" : 48
+        } ],
+        "location" : "stepDefinations.GetWithEmailPasswordSteps.user_want_to_retrive_the_data_from_the_database(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 999800,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User want to check sTatus code 404",
+      "match" : {
+        "arguments" : [ {
+          "val" : "404",
+          "offset" : 31
+        } ],
+        "location" : "stepDefinations.GetWithEmailPasswordSteps.user_want_to_check_s_tatus_code(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@GetWithEmailPassword"
+    } ]
+  } ],
+  "name" : "GetWithEmailPasswordSteps Request",
+  "description" : "",
+  "id" : "getwithemailpasswordsteps-request",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/GetWithEmailpassword.feature",
+  "tags" : [ ]
+}, {
+  "line" : 2,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:39.913Z",
+    "line" : 5,
+    "name" : "User want to read the data from database",
+    "description" : "",
+    "id" : "user-is-able-to-fetch-the-data-by-id;user-want-to-read-the-data-from-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 41058500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User want to fetch the data from database \"http://localhost:8080/admins/58\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins/58\"",
+          "offset" : 42
+        } ],
+        "location" : "stepDefinations.GetWithIDStep.user_want_to_fetch_the_data_from_database(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 2003900,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User want to verify status code 200",
+      "match" : {
+        "arguments" : [ {
+          "val" : "200",
+          "offset" : 32
+        } ],
+        "location" : "stepDefinations.GetWithIDStep.user_want_to_verify_status_code(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@GetByID"
+    } ]
+  } ],
+  "name" : "User is able to fetch the data by ID",
+  "description" : "",
+  "id" : "user-is-able-to-fetch-the-data-by-id",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/GetWithID.feature",
+  "tags" : [ ]
+}, {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:39.967Z",
+    "line" : 4,
+    "name" : "User should be able to update data into database",
+    "description" : "",
+    "id" : "put-request;user-should-be-able-to-update-data-into-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 220059800,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "User want to update the Date into database",
+      "match" : {
+        "location" : "stepDefinations.PutSteps.user_want_to_update_the_date_into_database()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 4570151700,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User is able to update dat into database using URI \"http://localhost:8080/admins\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins\"",
+          "offset" : 51
+        } ],
+        "location" : "stepDefinations.PutSteps.user_is_able_to_update_dat_into_database_using_uri(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 4024100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User want to check the code is 200",
+      "match" : {
+        "arguments" : [ {
+          "val" : "200",
+          "offset" : 31
+        } ],
+        "location" : "stepDefinations.PutSteps.user_want_to_check_the_code_is(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@PutMethod"
+    } ]
+  } ],
+  "name" : "Put Request",
+  "description" : "",
+  "id" : "put-request",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/PutMethod.feature",
+  "tags" : [ ]
+}, {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-11-04T10:51:44.770Z",
+    "line" : 4,
+    "name" : "User should be able to add data into database",
+    "description" : "",
+    "id" : "user-is-able-to-post-the-data-in-database;user-should-be-able-to-add-data-into-database",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2999800,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "User want to post Data into Database",
+      "match" : {
+        "location" : "stepDefinations.PostSteps.user_want_to_post_data_into_database()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 4522443200,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "User is able to put data into URI \"http://localhost:8080/admins\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"http://localhost:8080/admins\"",
+          "offset" : 34
+        } ],
+        "location" : "stepDefinations.PostSteps.user_is_able_to_put_data_into_uri(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 4000500,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "User want to validate status code 201",
+      "match" : {
+        "arguments" : [ {
+          "val" : "201",
+          "offset" : 34
+        } ],
+        "location" : "stepDefinations.PostSteps.user_want_to_validate_status_code(java.lang.Integer)"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@PostMethod"
+    } ]
+  } ],
+  "name" : "user is able to post the data in database",
+  "description" : "",
+  "id" : "user-is-able-to-post-the-data-in-database",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/Feature/postMethod.feature",
+  "tags" : [ ]
+} ]
